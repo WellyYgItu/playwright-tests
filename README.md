@@ -31,17 +31,32 @@ Automated end-to-end (E2E) test suite built with **Playwright** and **TypeScript
 
 ## Setup & Installation
 
-# 1. Clone the repository
-git clone https://github.com/WellyYgItu/playwright-tests.git
+### Step 1: Get the Project Code (Choose One Method)
 
-# 2. Navigate into the project directory
-cd playwright-tests
+* **Option A — Clone via Git:**
+  ```bash
+  git clone [https://github.com/WellyYgItu/playwright-tests.git](https://github.com/WellyYgItu/playwright-tests.git)
+  cd playwright-tests
+  ```
 
-# 3. Install project dependencies from package.json
+* **Option B — Download as ZIP:**
+  1. Open the [repository page](https://github.com/WellyYgItu/playwright-tests).
+  2. Click the green **`<> Code`** button and select **Download ZIP**.
+  3. Extract the downloaded archive and open a terminal inside the extracted `playwright-tests` folder.
+
+* **Option C — Download from GitHub Releases:**
+  1. Go to the **[Releases](https://github.com/WellyYgItu/playwright-tests/releases)** section on the right sidebar of the repository.
+  2. Under the latest release, download **Source code (zip)**.
+  3. Extract the archive and open a terminal inside the extracted folder.
+
+### Step 2: Install Dependencies & Browser Binary
+
+Run the following commands inside the project root directory:
+
+```bash
 npm install
-
-# 4. Install the Playwright Chromium browser binary
 npx playwright install chromium
+```
 
 ## Running the Tests
 
