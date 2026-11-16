@@ -16,11 +16,13 @@ Automated end-to-end (E2E) test suite built with **Playwright** and **TypeScript
 
 ## Project Structure
 
+```text
 ├── tests/
 │   └── nutapos.saucedemo.welly.spec.ts   # Main E2E test suite
 ├── playwright.config.ts                  # Base URL, data-test attribute, and demo mode config
 ├── package.json                          # Dependencies and test execution scripts
 └── README.md                             # Project documentation
+```
 
 ## Prerequisites
 
